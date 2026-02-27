@@ -1,6 +1,6 @@
 {
     "homepage": "https://alexpak00.github.io/alexpak-portfolio",
-    "name": "alexpak-portfolio",
+    "name": "portfolio-template",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
