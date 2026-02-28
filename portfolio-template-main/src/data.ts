@@ -9,7 +9,7 @@ export const PersonalInfo: AboutMeData = {
   cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
   links: {
     github: "https://github.com/alexpak00",
-    itchIO: "https://https://alexsixpak.itch.io/",
+    itchIO: "https://alexsixpak.itch.io/",
     linkedIn: "https://www.linkedin.com/in/alex-pak-6882851b4/",
   }
 };
@@ -27,8 +27,8 @@ export const games: Game[] = [
     ],
     media: [
       { source: "/images/games/Cybersin/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://youtu.be/XR_96G_w2kw", type: MediaType.YouTube },
-      { source: "https://youtu.be/NHJIXRmesz4", type: MediaType.YouTube },
+      { source: "https://youtube.com/embed/XR_96G_w2kw", type: MediaType.YouTube },
+      { source: "https://youtube.com/embed/NHJIXRmesz4", type: MediaType.YouTube },
       { source: "/images/games/Cybersin/Screenshot_2.png", type: MediaType.Image },
       { source: "/images/games/Cybersin/Screenshot_3.png", type: MediaType.Image },
       { source: "/images/games/Cybersin/Screenshot_4.png", type: MediaType.Image },
@@ -47,7 +47,7 @@ export const games: Game[] = [
     ],
     media: [
       { source: "/images/games/Ascendant/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://youtu.be/XTITqLQVZwI", type: MediaType.YouTube },
+      { source: "https://youtube.com/embed/XTITqLQVZwI", type: MediaType.YouTube },
       { source: "/images/games/Ascendant/Screenshot_2.png", type: MediaType.Image },
       { source: "/images/games/Ascendant/Screenshot_3.png", type: MediaType.Image },
       { source: "/images/games/Ascendant/Screenshot_4.png", type: MediaType.Image }
@@ -65,8 +65,8 @@ export const games: Game[] = [
     ],
     media: [
       { source: "/images/games/Dungeon_Dive/Screenshot_1.png", type: MediaType.Image },
-      { source: "https://youtu.be/yfft9e8mZL0", type: MediaType.YouTube },
-      { source: "https://youtu.be/pxjy-ctwC70", type: MediaType.YouTube },
+      { source: "https://youtube.com/embed/yfft9e8mZL0", type: MediaType.YouTube },
+      { source: "https://youtube.com/embed/pxjy-ctwC70", type: MediaType.YouTube },
       { source: "/images/games/Dungeon_Dive/Screenshot_2.png", type: MediaType.Image },
       { source: "/images/games/Dungeon_Dive/Screenshot_3.png", type: MediaType.Image }
     ],
