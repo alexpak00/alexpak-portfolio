@@ -71,34 +71,41 @@ const Button = styled.button`
 `;
 
 const ContactMe: React.FC = () => {
-  const [name, setName] = useState('');
-  const [message, setMessage] = useState('');
+    const [name, setName] = useState('');
+    const [message, setMessage] = useState('');
 
-  const handleSubmit = () => {
-    const formattedMessage = `Hey my name is ${name}\n${message}`;
-    const url = `https://wa.me/${process.env.REACT_APP_WA_NUMBER}?text=${encodeURIComponent(formattedMessage)}`;
-    window.open(url, '_blank');
-  };
+    const handleSubmit = () => {
+        const subject = `Message from ${name}`;
+        const body = `Hey, my name is ${name}\n\n${message}`;
 
-  return (
-    <CenterContainer>
-      <ContactContainer>
-        <Title>Contact Me</Title>
-        <Input
-          type="text"
-          placeholder="Your Name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-        <TextArea
-          placeholder="Your Message"
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
-        />
-        <Button onClick={handleSubmit}>Send via WhatsApp</Button>
-      </ContactContainer>
-    </CenterContainer>
-  );
+        // Use your email directly here
+        const mailtoLink = `mailto:alexpak00@gmail.com?subject=${encodeURIComponent(
+            subject
+        )}&body=${encodeURIComponent(body)}`;
+
+        // Open user's email client
+        window.location.href = mailtoLink;
+    };
+
+    return (
+        <CenterContainer>
+            <ContactContainer>
+                <Title>Contact Me</Title>
+                <Input
+                    type="text"
+                    placeholder="Your Name"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                />
+                <TextArea
+                    placeholder="Your Message"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                />
+                <Button onClick={handleSubmit}>Send via Email</Button>
+            </ContactContainer>
+        </CenterContainer>
+    );
 };
 
 export default ContactMe;

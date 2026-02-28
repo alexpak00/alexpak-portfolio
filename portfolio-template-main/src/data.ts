@@ -4,7 +4,7 @@ export const PersonalInfo: AboutMeData = {
   name: "Alex Pak",
   role: "Gameplay Programmer",
   introduction: "",
-  description: "TELL_ABOUT_YOURSELF",
+  description: "Greetings! My name is Alex and I am an aspiring gameplay programmer. Currently, I am pursuing a Bachelors in Computer Game Design at George Mason University. I would say my interest in game development comes from my experience with League of Legends. My personal interests include dancing and gunpla. Thanks for reading!",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
   cvUri: `${process.env.PUBLIC_URL}/files/Alex_Pak_Game_Dev_Resume.pdf`,
   links: {
@@ -55,7 +55,7 @@ export const games: Game[] = [
   },
   {
     name: "Dungeon Dive",
-      description: "Final solo project combining two course modules, where I implemented multi-phase boss behavior, player action systems, and visual damage feedback to enhance game feel.”",
+      description: "Final solo project combining two course modules, where I implemented multi-phase boss behavior, player action systems, and visual damage feedback to enhance game feel.",
       genres: ["3D", " Boss Rush", "Action"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
