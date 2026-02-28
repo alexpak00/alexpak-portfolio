@@ -56,7 +56,7 @@ const AboutMe: React.FC = () => {
        {PersonalInfo.description}
       </AboutText>
       <CVButton href={`${PersonalInfo.cvUri}`} download>
-        Download My CV
+        Download My Resume
       </CVButton>
     </Container>
   );
