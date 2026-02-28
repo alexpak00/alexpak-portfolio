@@ -51,7 +51,7 @@ const CVButton = styled.a`
 const AboutMe: React.FC = () => {
   return (
     <Container>
-      <ProfileImage src={PersonalInfo.image} alt="Your Name" />
+      <ProfileImage src={PersonalInfo.image} alt="Alex Pak" />
       <AboutText>
        {PersonalInfo.description}
       </AboutText>
