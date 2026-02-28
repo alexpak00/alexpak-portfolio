@@ -6,7 +6,7 @@ export const PersonalInfo: AboutMeData = {
   introduction: "",
   description: "TELL_ABOUT_YOURSELF",
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
-  cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
+  cvUri: `${process.env.PUBLIC_URL}/files/Alex_Pak_Game_Dev_Resume.pdf`,
   links: {
     github: "https://github.com/alexpak00",
     itchIO: "https://alexsixpak.itch.io/",
@@ -55,7 +55,7 @@ export const games: Game[] = [
   },
   {
     name: "Dungeon Dive",
-    description: "A 2D Platformer",
+      description: "Final solo project combining two course modules, where I implemented multi-phase boss behavior, player action systems, and visual damage feedback to enhance game feel.”",
       genres: ["3D", " Boss Rush", "Action"],
     platforms: [Platform.Windows],
     engine: GameEngine.Unity,
